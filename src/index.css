@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: 'Helvetica Neue ME', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #1d3045;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  padding: 0;
+}
+
+canvas,
+video {
+  display: block;
+}
